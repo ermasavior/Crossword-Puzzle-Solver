@@ -1,0 +1,17 @@
+15
+###------#----#
+-#-#-#-#-#-##-#
+-----#---------
+-#-#-#-#-#-#-#-
+-------#-------
+-#-#-#-###-#-#-
+----#----------
+##-#-#-#-#-#-##
+----------#----
+-#-#-###-#-#-#-
+-------#-------
+-#-#-#-#-#-#-#-
+---------#-----
+#-##-#-#-#-#-#-
+#----#------###
+REDRAW;TWEETERS;ACUMEN;PARACHUTISTS;HANDICAPS;MOTEL;CAKE;POSING;ROYAL;ARGYLE;HISTORICAL;FLAMINGOES;SUVA;RAISINS;RACKING;YUMCHA;FORTH;DELIBERATION;PIE;ARC;BRIDAL;TRAP;UBEND;DISTEMPER;CLIMATE;THEORISTS;LITURGY;ACES;DIVISIVE;DODDERING;SWAMP;LYSOL
