@@ -175,47 +175,9 @@ def printPuzzle(PuzzleBoard):
         print()
 
 ### Main Program ###
-initPuzzle(sys.argv[1])   # sys.argv[1] = filename
-print("-- CROSSWORD PUZZLE SOLVER --")
-solvePuzzle()   # Solve, print, and count time execution for solving puzzle
-print("*** Crossword Puzzle has been solved for %s sec(s) ***" % (time))
 
-
-'''
-When in Doubt (Just In Case)
-def SearchWord(WordList, Grid):
-# Traverse all words and return if it fits the grid 
-    i = 0
-    isFound = False
-    while ((not isFound) and i < len(WordList)):
-        if isWordFit(Grid, WordList[i]):
-            isFound = True
-        else:
-            i += 1
-    if isFound:
-        return i
-    else:
-        return -1
-
-def PuzzleSolver(WordList):
-# Crossword puzzle solver with Brute Force method
-    global Puzzle, N, GridList, UsedWordList
-    i = 0
-    while i < len(GridList):    ### Under Construction
-        printPuzzle(Puzzle)
-        idxWord = SearchWord(WordList, GridList[i])
-        if idxWord != -1:
-            if not UsedWordList[idxWord]:
-                GridList[i].prev = GridToWord(GridList[i])
-                WriteWordinGrid(WordList[idxWord], GridList[i])
-                UsedWordList[idxWord] = True
-                i += 1
-            else:
-                i -= 1
-                UsedWordList[idxWord] = False
-        else:
-            i -= 1
-            GridWord = ''.join(GridToWord(GridList[i]))
-            WriteWordinGrid(GridList[i].prev, GridList[i])
-
-'''
+if __name__ == '__main__':
+    initPuzzle(sys.argv[1])   # sys.argv[1] = filename
+    print("-- CROSSWORD PUZZLE SOLVER --")
+    solvePuzzle()   # Solve, print, and count time execution for solving puzzle
+    print("*** Crossword Puzzle has been solved for %s sec(s) ***" % (time))
